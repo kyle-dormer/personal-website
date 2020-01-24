@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #293132;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #bb841a;
+}
+
+p,
+label {
+  color: #93a3ba;
+}
+
+section.contact-me {
+  width: 50%;
+  margin: 90px auto 0 auto;
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  text-align: center;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type='submit'] {
+  width: 25%;
+  color: #93a3ba;
+  background-color: #293132;
+  border: 3px solid #bb841a;
+  border-radius: 9px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type='submit']:hover {
+  background-color: #bb841a;
+  color: #293132;
+  cursor: pointer;
+}
