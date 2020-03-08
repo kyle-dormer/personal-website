@@ -8,6 +8,8 @@ body {
   padding: 0 0.62em;
   font: 1.2em/1.62 sans-serif;
   text-align: center;
+  background-color: #282828;
+  color: #ebdbb2;
 }
 
 img {
@@ -17,7 +19,7 @@ img {
 }
 
 nav ul {
-  border: 2px solid #d3d3d3;
+  border: 2px solid #ebdbb2;
   border-radius: 3px;
   list-style-type: none;
   font-family: monospace;
@@ -33,19 +35,8 @@ nav ul li a {
   display: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282828;
-    color: #ebdbb2;
-  }
-
-  nav ul {
-    border-color: #ebdbb2;
-  }
-
-  a,
-  a:visited,
-  a:active {
-    color: #b16300;
-  }
+a,
+a:visited,
+a:active {
+  color: #b16300;
 }
