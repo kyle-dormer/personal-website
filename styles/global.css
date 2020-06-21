@@ -40,3 +40,12 @@ a:visited,
 a:active {
   color: #b16300;
 }
+
+h1 {
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.blog h1 {
+  color: #b16300;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+}
