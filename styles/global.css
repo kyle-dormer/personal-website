@@ -43,9 +43,31 @@ a:active {
 
 h1 {
   text-shadow: -1px 3px 3px rgba(0, 0, 0, 1);
+  text-align: center;
 }
 
 .blog h1 {
   color: #b16300;
   text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+}
+
+.about-me {
+  text-align: left;
+}
+
+p.return {
+  text-align: center;
+  border: 2px solid #ebdbb2;
+  border-radius: 3px;
+}
+
+p.return a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+}
+
+p.return a:hover {
+  background-color: #ebdbb2;
+  color: #282828;
 }
