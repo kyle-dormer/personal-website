@@ -66,8 +66,3 @@ p.return a {
   width: 100%;
   padding: 15px;
 }
-
-p.return a:hover {
-  background-color: #ebdbb2;
-  color: #282828;
-}
