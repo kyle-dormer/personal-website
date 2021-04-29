@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="keywords" content="Kyle Dormer" />
-    <meta
-      name="description"
-      content="I am currently an undergraduate student of Computing. Within the realm of
-      computing, I am most interested in full-stack web development and
-      low-level programming, which is admittedly quite the contrast. Outside of
-      university, I enjoy bushcraft, hiking, music and reading."
-    />
-    <link rel="stylesheet" href="styles/global.min.css" />
-    <title>Kyle Dormer</title>
-  </head>
+---
+layout: default
+title: Kyle Dormer - Home
+desc: Computing undergraduate studying at the University of Gloucestershire.
+  I have professional experience with both backend and frontend development, especially in and around
+  e-Commerce systems such as Magento. In my free time, I enjoy bushcraft, hiking, history
+  and music.
+---
 
-  <body>
-    <header>
-      <img src="images/avatar.jpg" alt="Myself on a lovely summer evening." />
-      <h1>Kyle Dormer</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="about-me.html">About Me</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li>
-          <a href="https://github.com/kyle-dormer" target="_blank">Code</a>
-        </li>
-        <li><a href="mailto:hello@kyledormer.co.uk">Contact Me</a></li>
-      </ul>
-    </nav>
-  </body>
-</html>
+<header>
+  <img
+    src="/assets/images/avatar.webp"
+    alt="Myself on a lovely hike around Prestbury Hill, near Cheltenham. At least it was lovely until the rain hit."
+  />
+  <h1>Kyle Dormer</h1>
+  {% include nav.html %}
+</header>

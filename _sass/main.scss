@@ -7,22 +7,27 @@ body {
   max-width: 40em;
   padding: 0 0.62em;
   font: 1.2em/1.62 sans-serif;
-  text-align: center;
-  background-color: #282828;
-  color: #ebdbb2;
+  background-color: $black;
+  color: $cream;
+}
+
+::selection {
+  background: $pink;
 }
 
 img {
   max-width: 300px;
   height: auto;
-  text-align: center;
+  display: block;
+  margin: 0 auto 1em auto;
 }
 
 nav ul {
-  border: 2px solid #ebdbb2;
+  border: 2px solid $cream;
   border-radius: 3px;
   list-style-type: none;
   font-family: monospace;
+  text-align: center;
   padding: 0;
 }
 
@@ -38,32 +43,15 @@ nav ul li a {
 a,
 a:visited,
 a:active {
-  color: #b16300;
+  color: $orange;
+  &:hover {
+    color: $cream;
+  }
 }
 
 h1 {
   text-shadow: -1px 3px 3px rgba(0, 0, 0, 1);
   text-align: center;
-}
-
-.blog h1,
-.about-me h1 {
-  color: #b16300;
-  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
-}
-
-.about-me {
-  text-align: left;
-}
-
-p.return {
-  text-align: center;
-  border: 2px solid #ebdbb2;
-  border-radius: 3px;
-}
-
-p.return a {
-  display: block;
-  width: 100%;
-  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }

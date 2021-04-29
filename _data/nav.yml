@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About Me
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: Projects
+  link: https://github.com/kyle-dormer
+- name: Contact Me
+  link: mailto:hello@kyledormer.co.uk
