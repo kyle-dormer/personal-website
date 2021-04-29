@@ -7,8 +7,12 @@ body {
   max-width: 40em;
   padding: 0 0.62em;
   font: 1.2em/1.62 sans-serif;
-  background-color: #282828;
-  color: #ebdbb2;
+  background-color: $black;
+  color: $cream;
+}
+
+::selection {
+  background: $pink;
 }
 
 img {
@@ -19,7 +23,7 @@ img {
 }
 
 nav ul {
-  border: 2px solid #ebdbb2;
+  border: 2px solid $cream;
   border-radius: 3px;
   list-style-type: none;
   font-family: monospace;
@@ -39,7 +43,10 @@ nav ul li a {
 a,
 a:visited,
 a:active {
-  color: #b16300;
+  color: $orange;
+  &:hover {
+    color: $cream;
+  }
 }
 
 h1 {
