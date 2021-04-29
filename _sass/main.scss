@@ -7,7 +7,6 @@ body {
   max-width: 40em;
   padding: 0 0.62em;
   font: 1.2em/1.62 sans-serif;
-  text-align: center;
   background-color: #282828;
   color: #ebdbb2;
 }
@@ -15,7 +14,8 @@ body {
 img {
   max-width: 300px;
   height: auto;
-  text-align: center;
+  display: block;
+  margin: 0 auto 1em auto;
 }
 
 nav ul {
@@ -23,6 +23,7 @@ nav ul {
   border-radius: 3px;
   list-style-type: none;
   font-family: monospace;
+  text-align: center;
   padding: 0;
 }
 
@@ -46,8 +47,4 @@ h1 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-p {
-  text-align: left;
 }
