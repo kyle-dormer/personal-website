@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-# About Me
+# About Me.
 
 {% include nav.html %}
 
