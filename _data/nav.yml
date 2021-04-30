@@ -4,6 +4,8 @@
   link: /about.html
 - name: Blog
   link: /blog.html
+- name: Habits
+  link: /habits.html
 - name: Projects
   link: https://github.com/kyle-dormer
 - name: Contact Me
