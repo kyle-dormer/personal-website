@@ -1,5 +1,7 @@
+url: "https://kyledormer.co.uk"
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 title: Kyle Dormer
 description: My name is Kyle Dormer and this is my personal website. I am a Computing undergraduate at the University of Gloucestershire, specialising in web development.
 locale: en_GB
