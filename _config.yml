@@ -8,6 +8,11 @@ locale: en_GB
 defaults:
   - scope:
       path: ""
+    values:
+      tick: "&#9989;"
+      cross: "&#10060;"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
