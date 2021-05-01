@@ -19,6 +19,11 @@ defaults:
       layout: "default"
   - scope:
       path: ""
+      type: "CT5018"
+    values:
+      layout: "note"
+  - scope:
+      path: ""
       type: "CT5022"
     values:
       layout: "note"
@@ -39,6 +44,9 @@ defaults:
       layout: "note"
 collections_dir: collections
 collections:
+  CT5018:
+    name: "Data Analytics"
+    output: true
   CT5022:
     name: "Project Management"
     output: true
