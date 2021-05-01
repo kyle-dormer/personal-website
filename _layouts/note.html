@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign len = page.module.size %}
+<h1>
+    {% if len > 0 %}
+        {{ page.module }} |
+    {% endif %}
+    {{ page.title }}
+</h1>
+{% include nav.html %}
+<main class="blog">{{ content }}</main>

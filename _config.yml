@@ -17,3 +17,37 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "CT5022"
+    values:
+      layout: "note"
+  - scope:
+      path: ""
+      type: "CT5038"
+    values:
+      layout: "note"
+  - scope:
+      path: ""
+      type: "CT5055"
+    values:
+      layout: "note"
+  - scope:
+      path: ""
+      type: "CT5057"
+    values:
+      layout: "note"
+collections_dir: collections
+collections:
+  CT5022:
+    name: "Project Management"
+    output: true
+  CT5038:
+    name: "Agile Methods"
+    output: true
+  CT5057:
+    name: "Algorithms & Data Structures"
+    output: true
+  CT5055:
+    name: "Artificial Intelligence"
+    output: true

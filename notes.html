@@ -1,0 +1,23 @@
+---
+title: Notes
+---
+
+<h1>Notes</h1>
+{% include nav.html %}
+{% for collection in site.collections %} 
+{% assign name = collection.label %} 
+{% unless name == "posts" %}
+<section>
+  <h2>{{ name }} | {{ collection.name }}</h2>
+  {% for page in site[name] %}
+  <ul>
+    <article>
+        <li>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+        </li>
+    </article>
+  </ul>
+  {% endfor %}
+</section>
+{% endunless %} 
+{% endfor %}
