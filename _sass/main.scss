@@ -55,3 +55,20 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid $orange;
+  margin-bottom: 2.5rem;
+  background: #4a4a4a;
+}
+
+blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
