@@ -156,3 +156,8 @@ Recent research findings show that companies that excel in project delivery capa
 * Grow project leaders, emphasizing business and soft skills.
 * Develop a streamlined project delivery process.
 * Measure project health using metrics, including customer satisfaction and return on investment.
+
+## Post-Sessional Work: Project Management Tools
+* Trello - based on Kanban board, users create task boards with various columns and tasks can be organised into these - allowing users to tailor Trello to be as simple or advanced as they need. However, doesn't represent a 'full' solution.
+* Asana - SaaS solution aimed to provide a single-tool solution to a team's project management needs. Features include creating projects, assigning work, specifying eadlines, team communication, files, calendars, bespoke security controls, status update and more.
+* Jira &mdash; - project management and issue tracking software developed by Atlassian. Particularly tailored for Agile project management.
